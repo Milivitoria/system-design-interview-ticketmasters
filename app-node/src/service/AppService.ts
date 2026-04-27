@@ -41,7 +41,7 @@ export class AppService {
       if (!scope) {
         throw new CreateEntityException(
           'Create App Exception',
-          'There is invalid scopes provided',
+          'There are invalid scopes provided',
         );
       }
       scopeEntities.push(scope);
